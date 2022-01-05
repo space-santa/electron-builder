@@ -1,9 +1,9 @@
 {
-  "name": "@angular-guru/electron-builder",
-  "version": "8.0.0",
+  "name": "@space-santa/electron-builder",
+  "version": "13.1.2",
   "description": "Electron Builder for the Angular CLI.",
   "license": "MIT",
-  "homepage": "https://angular-guru.com",
+  "homepage": "https://github.com/space-santa/electron-builder",
   "keywords": [
     "angular",
     "cli",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com@angular-guru/electron-builder"
+    "url": "https://github.com/space-santa/electron-builder"
   },
   "main": "src/index.js",
   "typings": "src/index.d.ts",
@@ -20,20 +20,20 @@
     "build": "tsc"
   },
   "peerDependencies": {
-    "rxjs": "^6.0.0",
-    "@angular-devkit/architect": ">=0.800.0",
-    "@angular-devkit/build-angular": ">=0.800.0",
-    "@angular/compiler-cli": ">=8.0.0"
+    "rxjs": "^7.4.0",
+    "@angular-devkit/architect": "^0.1301.2",
+    "@angular-devkit/build-angular": "^13.1.2",
+    "@angular/compiler-cli": "^13.1.1"
   },
   "devDependencies": {
-    "@angular-devkit/architect": "^0.800.6",
-    "@angular-devkit/build-angular": "^0.800.6",
-    "@angular-devkit/core": "^8.0.6",
-    "@types/node": "^10.3.2",
-    "@types/webpack": "^4.4.0",
-    "@types/webpack-dev-server": "^2.9.4",
-    "typescript": "^3.4.5",
-    "webpack": "^4.12.0",
-    "webpack-dev-server": "^3.1.4"
+    "@angular-devkit/architect": "^0.1301.2",
+    "@angular-devkit/build-angular": "^13.1.2",
+    "@angular-devkit/core": "^13.1.2",
+    "@types/node": "^17.0.8",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.5.1",
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-dev-server": "^4.7.2"
   }
 }
