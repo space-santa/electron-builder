@@ -1,6 +1,6 @@
 {
   "name": "@space-santa/electron-builder",
-  "version": "13.1.2",
+  "version": "13.1.5",
   "description": "Electron Builder for the Angular CLI.",
   "license": "MIT",
   "homepage": "https://github.com/space-santa/electron-builder",
@@ -20,7 +20,7 @@
     "build": "tsc"
   },
   "peerDependencies": {
-    "rxjs": "^7.4.0",
+    "rxjs": "^6.6.7",
     "@angular-devkit/architect": "^0.1301.2",
     "@angular-devkit/build-angular": "^13.1.2",
     "@angular/compiler-cli": "^13.1.1"

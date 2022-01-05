@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
 
 export function buildElectronKarma(options: any, context: BuilderContext): Observable<BuilderOutput> {
   return executeKarmaBuilder(options, context, {
-    webpackConfiguration: (config) => {
+    webpackConfiguration: (config: any) => {
       return { ...config, target: 'electron-renderer' };
     }
   });
